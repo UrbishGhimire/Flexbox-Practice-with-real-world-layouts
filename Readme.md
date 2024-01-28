@@ -1,1 +1,1 @@
-It took me a while to learn flexbox and feel a bit confident with it. So this repo will work as my quick reference note. This is just a personal project to sharpen my flexbox skills / implementational abilities.
+It took me a while to learn flexbox & feel a bit confident with it. So, this repo will work as my quick reference note. This is just a personal project to sharpen my flexbox skills / implementational abilities.
