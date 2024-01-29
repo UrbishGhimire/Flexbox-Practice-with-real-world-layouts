@@ -90,5 +90,5 @@ body {
 /* This help a bit in responsiveness for mobile devices  */
 .main,
 .footer {
-    padding: 0 80px;
+    padding: 0 25px;
 }
