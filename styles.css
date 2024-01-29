@@ -76,11 +76,19 @@ body {
 
 .item {
     flex: 1 1 0;
-        background-color: mistyrose;
-        border-radius: 25px;
-        border: 2px solid;
+    background-color: mistyrose;
+    border-radius: 25px;
+    border: 2px solid;
 }
-.item.title, .footer .item{
+
+.item.title,
+.footer .item {
     background-color: hsla(0, 0%, 0%, 0.137);
     border: none;
+}
+
+/* This help a bit in responsiveness for mobile devices  */
+.main,
+.footer {
+    padding: 0 80px;
 }
