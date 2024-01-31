@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item{
+    background: rgb(158, 227, 93);
+    background: linear-gradient(270deg, rgba(158, 227, 93, 0.79), rgba(175, 244, 135, 0.629));
+
+    border: 2px mistyrose solid;
+    padding: 16px;
+}
+
+.small-container{
+    display: flex;
+    width: 100vw;
+    /* 📝 VW IS VIEWPORT WIDTH*/
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.aside{
+    display: flex;
+    min-width: 40vw;
+}
+
+.item.header{
+    min-width: 60vw;
+}
+
+.item.article{
+    flex-grow: 1;
+
+}
+
+.item.footer{
+    height: 20vh;
+}
+
+.item.menu{
+    flex-grow: 1;
+}
