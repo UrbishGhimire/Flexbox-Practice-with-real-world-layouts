@@ -2,7 +2,7 @@ It took me a while to learn flexbox & feel a bit confident with it. So, this rep
 
 
 
-1. MAIN PROJECT TREE 🌳
+-- MAIN PROJECT TREE 🌳
 
 THIS WILL BE THE FIRST SITE CREATED USING FLEXBOX WHICH WILL HAVE LINKS TO OTHER LAYOUTS.
 
