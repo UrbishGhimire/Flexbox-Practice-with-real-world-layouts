@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.item {
+    background: rgb(158, 227, 93);
+    background: linear-gradient(270deg, rgba(158, 227, 93, 0.79), rgba(175, 244, 135, 0.629));
+
+    border: 2px solid mistyrose;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header,
+.content,
+.footer {
+    display: flex;
+    flex: 1;
+    
+
+    
+}
+
+/* .header{
+    width:25px;
+} */
+ /* 📝📝📝MY COMMON MISTAKE : GIVING WIDTH AND HEIGHT WHICH I WANT IN INDIVIDUAL ITEM  TO IT'S PARENT */
+
+.item{
+    flex: 1;
+}
+
+.header .item {
+    height: 10vh;
+    width: 25vw;
+}
+
+.content .item {
+    height: 70vh;
+    width: 20vw;
+}
+
+.content .item:last-child{
+    /* 📝📝📝can be done with width value as well as flex-grow , but use flex-grow for responsiveness */
+    
+    /*  width: 60vw;
+     */
+     flex: 3;
+}
+
+.footer .item {
+    height: 20vh;
+    flex:1;
+
+    /* 📝width: 50vw;*/
+
+    /* width not needed since flex:1 in item  divides them in 50vw automatically */ 
+}
+
+
